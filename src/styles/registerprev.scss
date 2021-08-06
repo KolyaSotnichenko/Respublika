@@ -1,0 +1,56 @@
+.register-prev{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    max-height: 300px;
+
+    .register-title{
+        width: 549px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        color: #2B2B2B;
+        margin-bottom: 32px;
+    }
+
+    .register-subtitle{
+        font-weight: 600;
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .btn{
+        border-radius: 0 !important;
+    }
+
+    .btn-register{
+        margin-top: 31px;
+        width: 222px;
+        height: 71px;
+        left: 43%;
+        top: 69%;
+        color: #fff;
+    
+        background: #EF6A20;
+    
+        .psevdo{
+            &::after{
+                content: url(../img/Vecto.png);
+                padding-left: 15px;
+                color: #fff;
+            }
+        }
+    }
+
+    .register-img{
+        margin-top: 1.7%;
+        margin-right: 4.5%;
+    }
+
+    .register-logo{
+        position: absolute;
+        top: 117%;
+        left: 38%;
+    }
+}

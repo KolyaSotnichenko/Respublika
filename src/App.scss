@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(../src/fonts/Gilroy-Light.ttf) format('truetype');
+  }
+
+*{
+    font-family: 'Gilroy';
+}
+
+.devider{
+  border-bottom: 4px solid #EF6A20;
+}

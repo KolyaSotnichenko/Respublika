@@ -1,0 +1,116 @@
+.info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+
+    .slider-block{
+        width: 20%;
+        margin-top: 10%;
+
+        .slider-subtitle{
+            font-weight: 600;
+        }
+
+        .slider-title{
+            margin-top: 55px;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 50px;
+            letter-spacing: 0.1em;
+        }
+    }
+    
+    .image-block{
+        width: 60%;
+    
+        .btn{
+            border-radius: 0 !important;
+        }
+    
+        .btn-photo{
+            position: absolute;
+            width: 222px;
+            height: 71px;
+            left: 43%;
+            top: 69%;
+    
+            background: #FFFFFF;
+    
+            .psevdo{
+                &::after{
+                    content: url(../img/Vector.png);
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+
+    .slider-list{
+
+        padding-left: 0;
+
+        li{
+            list-style: none;
+            
+            p{
+                margin-bottom: 0;
+                &::before{
+                    content: '-';
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .slider-btn{
+
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 141.88px;
+        height: 31px;
+        top: 74%;
+
+        .btn-1{
+            position: absolute;
+            width: 23.98px;
+            height: 24px;
+            top: 47%;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 33px;
+            line-height: 24px;
+
+            color: #BDBDBD;
+        }
+
+        .btn-2{
+            position: absolute;
+            width: 23.98px;
+            height: 24px;
+            left: 77%;
+            top: 47%;
+
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 33px;
+            line-height: 24px;
+
+            color: #BDBDBD;
+        }
+
+        span{
+            position: absolute;
+            width: 43.82px;
+            height: 0px;
+            left: 35%;
+            top: 74%;
+            border: 1px solid #E0E0E0;
+            transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+        }
+    }
+}
+
